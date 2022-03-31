@@ -20,17 +20,20 @@ const NavBar = ({ openMenu }) => {
                                    <NavLinks to='about'>Sobre</NavLinks>
                               </NavItem>
                               <NavItem>
+                                   <NavLinks to='galery'>Galeria</NavLinks>
+                              </NavItem>
+                              <NavItem>
                                    <NavLinks to='agenda'>Agenda</NavLinks>
                               </NavItem>
                               <NavItem>
                                    <NavLinks to='contact'>Contatos</NavLinks>
                               </NavItem>
                               <NavItem>
-                                   <NavLinks to='signup'>Sign up</NavLinks>
+                                   <NavLinks to='signup'>Cadastre-se</NavLinks>
                               </NavItem>
                          </NavMenu>
                          <NavBtn>
-                              <NavBtnLink to='singin'>Sing in</NavBtnLink>
+                              <NavBtnLink to='singin'>Login</NavBtnLink>
                          </NavBtn>
                     </NavBarContainer>
                </Nav>

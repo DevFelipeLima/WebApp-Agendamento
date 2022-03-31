@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import img from '../../images/foto1.jpg'
 
 
 export const FsContainer = styled.div`
@@ -28,4 +29,46 @@ height: 100%;
 -o-object-fit: cover;
 object-fit: cover;
 background: #f53d71 ;
+`
+
+export const FsContent = styled.div`
+background-image: url(${img});
+border-radius: 5px;
+opacity: 80%;
+z-index:3;
+max-width: 1200px;
+width: 1150px ;
+height: 600px ;
+position: absolute;
+padding: 8px 24px;
+display: flex;
+flex-direction: column;
+align-items: center;
+`
+
+export const FsH1 = styled.h1`
+color: #000;
+font-size: 54px;
+text-align: center;
+
+@media screen and (max-width: 768px){
+    font-size: 40px
+}
+@media screen and (max-width: 480px){
+    font-size: 40px;
+}
+`
+export const FsP = styled.p`
+margin-top: 32px;
+color: #000;
+font-size: 32px
+text-align: center;
+max-width: 600px;
+
+@media screen and (max-width: 768px){
+    font-size: 32px
+}
+@media screen and (max-width: 480px){
+    font-size: 24px;
+}
 `

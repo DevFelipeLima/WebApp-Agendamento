@@ -14,12 +14,13 @@ function SideBar({ Open, openMenu }) {
             <SideBarWrapper>
                 <SideBarMenu>
                     <SideBarLink to='about' onClick={openMenu}>Sobre</SideBarLink>
-                    <SideBarLink to='Agenda' onClick={openMenu}>Agenda</SideBarLink>
-                    <SideBarLink to='Contact' onClick={openMenu}>Contato</SideBarLink>
-                    <SideBarLink to='signin' onClick={openMenu}>Signin</SideBarLink>
+                    <SideBarLink to='agenda' onClick={openMenu}>Agenda</SideBarLink>
+                    <SideBarLink to='galery' onClick={openMenu}>Galeria</SideBarLink>
+                    <SideBarLink to='contact' onClick={openMenu}>Contato</SideBarLink>
+                    <SideBarLink to='signup' onClick={openMenu}>Cadastre-se</SideBarLink>
                 </SideBarMenu>
                 <SideBtn>
-                    <SideBarRoutes to='/signin'>Sign In</SideBarRoutes>
+                    <SideBarRoutes to='/signin'>Login</SideBarRoutes>
                 </SideBtn>
             </SideBarWrapper>
         </SideBarCont>
